@@ -1,3 +1,10 @@
+def power_of_5:
+	if n <= 0:
+		return False
+	while n % 5 == 0:
+		n //=5
+	return n == 1
+
 def factorial(n):
 	if n ==0 or n == 1:
 		return 1
